@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML semantico</title>
+</head>
+<body>
+    <header>
+        <h1>Hipervinculos de navegación</h1>
+        <nav>
+            <ul>
+                <li><a href="#ejemplo">Inicio</a></li>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#image">Imagen</a></li>
+                <li><a href="#web">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div id="casa">
+                <h2>Vieja escuela</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis aperiam quisquam debitis cupiditate nihil nostrum voluptates ipsum necessitatibus praesentium, ipsam laudantium minima dolore dicta atque sapiente laboriosam repellendus vitae!</p>
+            </div>
+        </div>
+
+        <section>
+            <article id="ejemplo">
+                <h2>Nueva escuela</h2>
+                <p>El futuro es hoy, oiste viejo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam expedita quae cum non repellendus in velit error a quo, fugit sit earum voluptates voluptatum, dicta nostrum ut nemo unde! Fuga.</p>
+            </article>
+            <aside>
+                <h3>¿Cómo se comporta aside?</h3>
+                <p>Pues se comporta así Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe asperiores facere quod officiis dolores. Veritatis accusamus vel dignissimos tempora in nam asperiores iusto quisquam, doloremque magnam? Praesentium quis vel beatae?</p>
+                <p><img class="fig" src="./img/figura.jpeg" alt="figura float"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eligendi totam dolorum nihil et iusto dignissimos quis doloribus. Quasi, eaque. Consectetur dolorum beatae sunt cum ipsum commodi quos perspiciatis itaque.</p>
+            </aside>
+        </section>
+
+        <figure id="image">
+            <img src="./img/figura.jpeg" height="400" width="400" alt="Figura local">
+            <figcaption>Esto es una figura</figcaption>
+        </figure>
+        
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+        <!-- Buena practica -->
+        <video controls>
+            <source src="img/video.mov" type="video/mp4">
+        </video>
+        <!-- Mala practica significa PELIGRO -->
+        <video src="img/video.mov" controls></video>
+        <embed width="100%" height="396" src="https://www.afanion.org/bddocumentos/La-pecera-de-cuentos.pdf">
+        <div id="info">
+            <iframe width="704" height="396" src="https://www.youtube.com/embed/EYe4Hjbe6Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+            
+        </div>
+        <div id="web" class="phone">
+            <embed width="70%" height="396" src="https://taquitosoftware.com.mx/">
+        </div>
+            
+    </main>
+    <footer>
+         esto es un footer
+    </footer>
+    
+
+</body>
+</html>

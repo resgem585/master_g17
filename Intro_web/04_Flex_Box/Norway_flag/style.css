@@ -1,0 +1,63 @@
+
+
+
+body ´{
+
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    
+
+
+} 
+
+.padre {
+    width: 500px;
+    height: 100vh;
+    background-color: #080259;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+
+
+}
+   
+.hijo1 {
+    border: 2px solid;
+    height: 40%;
+    width: 80%;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+.nieto1 {
+    border: 2px solid;
+    height: 80%;
+    width: 80%;
+    background-color: #c41c1c;
+    display: flex;
+    display: inline-block;
+
+    ;
+    
+    
+}
+
+.nieto2 {
+
+    border: 2px solid;
+    height: 80%;
+    width: 80%;
+    background-color: #c41c1c;
+    display: flex;
+    
+    
+    
+    
+}
+
