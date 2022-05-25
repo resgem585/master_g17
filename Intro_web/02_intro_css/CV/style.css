@@ -1,0 +1,26 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 100px;
+    background-color: rgb(31, 9, 9);
+}
+
